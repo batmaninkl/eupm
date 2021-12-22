@@ -8600,3 +8600,7 @@ p.checkout-coupon input[type=text]:focus {
 .brand__item img {
     max-width: 50%;
 }
+
+.modal-dialog {
+  max-width: 1280px!important;
+}
