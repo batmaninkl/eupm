@@ -8459,7 +8459,8 @@ p.checkout-coupon input[type=text]:focus {
   margin-bottom: 4px;
 }
 .footer__link ul li a {
-  color: #a1a2ab;
+  color: #a1a2ab; 
+  font-size: 15px;
 }
 .footer__link ul li a:hover {
   color: #ffffff;
