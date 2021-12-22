@@ -148,8 +148,8 @@
 	////////////////////////////////////////////////////
     // 10. Brand Js
 	var swiper = new Swiper('.brand__slider', {
-		slidesPerView: 6,
-		spaceBetween: 30,
+		slidesPerView: 2,
+		spaceBetween: 10,
 		centeredSlides: true,
 		loop: true,
 		pagination: {

@@ -8594,3 +8594,6 @@ p.checkout-coupon input[type=text]:focus {
   font-family: 'Muli';
   color: #ffb352;
 }
+.brand__item img {
+    max-width: 50%;
+}
