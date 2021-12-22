@@ -8592,7 +8592,9 @@ p.checkout-coupon input[type=text]:focus {
 
 #RESERVE_Z {
   font-family: 'Muli';
-  color: #ffb352;
+  /* color: #ffb352; */
+  color: #fff;
+  font-size: 80%;
 }
 .brand__item img {
     max-width: 50%;
