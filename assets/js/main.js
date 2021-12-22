@@ -214,25 +214,7 @@
 	});
 	
 	////////////////////////////////////////////////////
-	let myModal = document.getElementById('myModal');
 
-let myModalJs = new bootstrap.Modal(myModal, {
-  keyboard: false
-});
-
-let buttonModal = document.getElementById('btnModal');
-
-buttonModal.addEventListener('click', function(e) {
-  myModalJs.show();
-});
-
-myModal.addEventListener('shown.bs.modal', function (e) {
-  console.log('Shown modal');
-});
-
-myModal.addEventListener('hidden.bs.modal', function (e) {
-  console.log('Hidden modal');
-});
 
     // 13. Masonary Js
 	$('.grid').imagesLoaded( function() {
@@ -339,5 +321,26 @@ myModal.addEventListener('hidden.bs.modal', function (e) {
 	$('.hover__active').on('mouseenter', function () {
 		$(this).addClass('active').parent().siblings().find('.hover__active').removeClass('active');
 	});
+
+
+	let myModal = document.getElementById('myModal');
+
+let myModalJs = new bootstrap.Modal(myModal, {
+  keyboard: false
+});
+
+let buttonModal = document.getElementById('btnModal');
+
+buttonModal.addEventListener('click', function(e) {
+  myModalJs.show();
+});
+
+myModal.addEventListener('shown.bs.modal', function (e) {
+  console.log('Shown modal');
+});
+
+myModal.addEventListener('hidden.bs.modal', function (e) {
+  console.log('Hidden modal');
+});
 
 })(jQuery);
