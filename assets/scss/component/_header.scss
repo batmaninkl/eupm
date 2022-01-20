@@ -680,7 +680,7 @@
 	& ul{
 		& li{
 			& a{
-				color: $white;
+				color: #000;
 				position: relative;
 				&::before{
 					position: absolute;
@@ -711,7 +711,7 @@
 			}
 			&:hover{
 				& a{
-					color: $white;
+					color: #000;
 					&::before{
 						width: 100%;
 						left: 0;

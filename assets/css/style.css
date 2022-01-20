@@ -910,7 +910,7 @@ p {
   background: #c9234b;
 }
 .header__area.sticky .header__search-2 svg .st0 {
-  fill: #0e1133;
+  fill: #000;
 }
 .header__area.sticky .header__search-2 svg .st1 {
   fill: #121317;
@@ -1072,10 +1072,10 @@ p {
   height: 18px;
 }
 .header__search-2 svg .st0 {
-  fill: #8C8FAA;
+  fill: #000;
 }
 .header__search-2 svg .st1 {
-  fill: #FFFFFF;
+  fill: #000;
 }
 .header__search-2 svg:hover {
   cursor: pointer;
@@ -1485,7 +1485,7 @@ p {
 }
 
 .main-menu-3 ul li a {
-  color: #ffffff;
+  color: #000000;
   position: relative;
 }
 .main-menu-3 ul li a::before {
@@ -8604,3 +8604,4 @@ p.checkout-coupon input[type=text]:focus {
 .modal-dialog {
   max-width: 1280px!important;
 }
+
