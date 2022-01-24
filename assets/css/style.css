@@ -8756,8 +8756,7 @@ iframe#video-1{
   margin-bottom: 4px; 
   font-size: 18px;
   font-weight: bold;
-  text-transform: uppercase;
-  font-family: 'Roboto Black', sans-serif;
+  text-transform: uppercase; 
   letter-spacing: 1px;
   color: #00acc1;
 }
