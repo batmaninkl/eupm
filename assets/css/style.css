@@ -1525,7 +1525,7 @@ p {
   transition: all 0.3s ease-in-out;
 }
 .sidebar-toggle-btn-white .line {
-  background: #ffffff;
+  background: #000;
 }
 .sidebar-toggle-btn:hover {
   cursor: pointer;
@@ -4506,7 +4506,7 @@ p {
   margin-bottom: 13px;
 }
 .cta__form-inner input {
-  width: 325px;
+  width: 695px;
   height: 56px;
   line-height: 56px;
   font-size: 15px;
@@ -8759,4 +8759,8 @@ iframe#video-1{
   text-transform: uppercase; 
   letter-spacing: 1px;
   color: #00acc1;
+}
+
+.logo.mb-40 a img {
+  width: 130px;
 }
