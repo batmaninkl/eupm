@@ -26,6 +26,7 @@
   overflow: hidden;
   list-style: none;
   padding: 0;
+  margin-top: 170px;
   /* Fix of Webkit flickering */
   z-index: 1;
 }
@@ -449,6 +450,7 @@ button.swiper-pagination-bullet {
 .swiper-container-fade .swiper-slide {
   pointer-events: none;
   transition-property: opacity;
+  background-repeat: no-repeat;
 }
 .swiper-container-fade .swiper-slide .swiper-slide {
   pointer-events: none;
