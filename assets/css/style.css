@@ -2731,6 +2731,9 @@ p {
   .course__summary p {
     font-size: 16px;
   }
+  .card-deck {
+    display: block!important;
+  }
 }
 .course__right {
   position: relative;
@@ -7135,6 +7138,9 @@ p.checkout-coupon input[type=text]:focus {
   .teacher__info {
     margin-bottom: 30px;
   }
+  .bottomheader{
+    padding: 27px 16px!important;
+  }
 }
 .teacher__info h4 {
   font-size: 40px;
@@ -8764,4 +8770,22 @@ iframe#video-1{
 
 .logo.mb-40 a img {
   width: 130px;
+}
+
+.bottomheader {
+  background-color: rgba(87, 87, 87, 1);
+  width: 100%;
+  max-width: none;
+  padding: 12px 19.5%;
+  position: relative;
+  top: 95px;
+}
+
+#logo_title1,#logo_title2 {
+  color:white;
+}
+
+.header__lang {
+  padding: 0 20px;
+  font-weight: bold;
 }
