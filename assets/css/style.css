@@ -6789,7 +6789,8 @@ p.checkout-coupon input[type=text]:focus {
 }
 @media (max-width: 575px) {
   .slider__height {
-    min-height: 600px;
+    min-height: 270px;
+    background-size: contain;
   }
 }
 .slider__overlay {
