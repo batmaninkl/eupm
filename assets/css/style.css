@@ -8789,3 +8789,18 @@ iframe#video-1{
   padding: 0 20px;
   font-weight: bold;
 }
+
+.events__more.text-center.mt-30 {
+  position: relative;
+  top: -90px;
+}
+
+.articles__more.text-center.mt-30 {
+  position: relative;
+  top: -90px;
+}
+
+.news__more.text-center.mt-30 {
+  position: relative;
+  top: -90px;
+}
