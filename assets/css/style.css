@@ -8832,3 +8832,18 @@ iframe#video-3{
 .brand__item {
   text-align: center;
 }
+
+div#termsModal {
+  top: 76%;
+  left: 75%;
+  width: 400px;
+}
+
+button.close {
+  width: 60px;
+  text-align: center;
+  padding-right: 0px;
+  padding-top: 10px;
+  left: 321px;
+  top: -41px;
+}
