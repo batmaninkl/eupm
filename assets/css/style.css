@@ -8687,10 +8687,18 @@ button.close {
 }
 
 iframe#video-1{
-  height: 60vh;
+  height: 70vh;
   width: 100%;
 }
 
+iframe#video-2{
+  height: 70vh;
+  width: 100%;
+}
+iframe#video-3{
+  height: 70vh;
+  width: 100%;
+}
 .card-deck {
   display: inline-flex;
 }
