@@ -123,7 +123,7 @@
     // 09. Slider Js (Home 3)
 	var galleryThumbs = new Swiper('.slider__nav', {
 		spaceBetween: 0,
-		slidesPerView: 6,
+		slidesPerView: 5,
 		freeMode: true,
 		watchSlidesVisibility: true,
 		watchSlidesProgress: true,
