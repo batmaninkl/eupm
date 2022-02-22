@@ -8232,6 +8232,15 @@ p.checkout-coupon input[type=text]:focus {
   .sign__social::after {
     left: -62%;
   }
+  div#termsModal {
+    top: 72% !important;
+    left: 1% !important;
+    width: 97% !important;
+    padding: 25px !important;
+}
+div#termsModal button.close {
+  left: 86%!important;
+}
 }
 .sign__social i {
   color: #ffffff;
