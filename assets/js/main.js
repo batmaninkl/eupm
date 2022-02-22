@@ -148,9 +148,9 @@
 	////////////////////////////////////////////////////
     // 10. Brand Js
 	var swiper = new Swiper('.brand__slider', {
-		slidesPerView: 3,
+		slidesPerView: 1,
 		spaceBetween: 8,
-		centeredSlides: true,
+		centeredSlides: false,
 		loop: true,
 		pagination: {
 			el: '.swiper-pagination',
@@ -166,10 +166,10 @@
     // 11. Tesimonial Js
 	var tesimonialThumb = new Swiper('.testimonial-nav', {
 		spaceBetween: 20,
-		slidesPerView: 3,
+		slidesPerView: 1,
 		loop: true,
 		freeMode: true,
-		loopedSlides: 3, //looped slides should be the same
+		loopedSlides: 1, //looped slides should be the same
 		watchSlidesVisibility: true,
 		watchSlidesProgress: true,
 		centeredSlides: true,
