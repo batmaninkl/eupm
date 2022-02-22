@@ -5807,6 +5807,16 @@ p.checkout-coupon input[type=text]:focus {
   top: 28%;
 }
 @media (max-width: 575px) {
+  .header__lang {
+    position: relative;
+    padding: 0!important;
+    font-weight: bold;
+    font-size: 15px;
+    left: 10px;
+}
+  img.logo-white {
+    max-width: 170px;
+}
   .why__thumb img.why-line {
     width: inherit;
   }
